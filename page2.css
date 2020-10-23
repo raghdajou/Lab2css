@@ -1,0 +1,270 @@
+
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    
+    /* font-family: Montserrat,sans-serif; */
+    font-weight: 400;
+    background-image: url("bace.jpg");
+    background-position:center;  
+   background-repeat: no-repeat; /* Do not repeat the image */
+   background-size: cover;
+  background-position-x: right;
+}
+ 
+.menu-container{
+    color: antiquewhite;
+    /* background-color:#66557F; */
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+}
+.menu{
+    width: 1300px;
+    display: flex;
+    justify-content: space-between;
+ }
+.link{
+    width: 800px;
+    display: flex;
+    justify-content: space-between;
+    float: left;
+}
+h2{
+    text-transform:capitalize;
+    color:#fff;
+    font-weight: 300;
+    font-size: 20px;
+    font-family: 'Lora', serif;
+} 
+ font{
+    color:#494589;
+    font-size: 20px; 
+    font-weight: 600;
+ }
+
+.header-container{
+    color:#fff;
+    /* background-color: #C3EDFA; */
+    display: flex;
+    justify-content: center;
+    
+    background-attachment: fixed; 
+      
+     
+
+}
+
+
+.header{
+    width:1300;
+    height: 500px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+    
+}
+ .social.ads{
+ align-self: flex-end;
+ margin-bottom: -1px;
+ float: right;
+ margin-left: -100%;
+ 
+}
+.subscribe{
+    align-self:flex-start;
+    align-self: center;
+    order:1;
+    margin-right: -500%;
+    float: right;
+   }
+h1{
+    text-transform:capitalize;
+    color:#fff;
+    font-weight: 400;
+    font-size:35px;
+    font-family: 'Lora', serif;
+}
+
+h3{
+    text-transform:capitalize;
+    color:#70538B;
+    font-weight: 15px;
+    font-size:14px;
+    padding-right: 1px;
+    font-family: 'Lora', serif;
+    font-family: 'Noto Serif JP', serif;
+} 
+
+.myband1{
+    align-self:flex-start;
+    align-self:center;
+    /* float: left; */
+    margin-left:-400px;
+    margin-top: -90%;
+   }
+
+   
+.header1{
+    width: 1500px;
+    height: 770px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left:2%;
+    margin-top: -7%;
+    
+    
+}
+.content{
+    /* margin:150px 0%; */
+    
+    border: 1px solid none;
+    width:100%;
+    height:800px;
+    padding: 10px;
+    position: absolute;
+    top:500px;
+    background-color: #C29DFA;
+}
+ol li{
+    float:left;
+    width:312px;
+    list-style-type: none;
+    left: 10%;
+    align-items: center;
+    
+}
+
+.Music1{
+    border: 1px solid #efefef;
+    width:84%;
+    margin-top:20px;
+    margin-left:20px;
+    background:#855CC6;
+    
+   
+}
+.song{
+    margin-top:-29px;
+    margin-left: 20px;
+    border-radius: 50%;
+    
+}
+
+h5{
+    margin-top: 4px;
+    font-size:23px;
+    font-weight: 500;
+    margin-left:20px;
+    color:#fff;
+    padding: 3px;
+    
+  
+    
+}
+
+.Music1:hover{
+    opacity:0.6;
+    cursor: pointer;
+    
+}
+/* .content1{
+    position: absolute;
+    left:4%;
+   
+    text-transform: capitalize; 
+    
+} */
+input[type="search"]{
+    border: none;
+    position: absolute;
+    left:84%;
+    top: 22%;
+    border-radius:9px;
+    padding:10px;
+    outline: none;
+}
+
+.search{
+    border: 1px solid none;
+    width:100%;
+    padding:10px;
+    position: absolute;
+    margin:0px 0%;
+    position: absolute;
+    background:#A462EF;
+    height: 70px;
+}
+h4{
+    text-transform: uppercase;
+    color:#fff;
+    font-weight: 600;
+    font-size: 25px;
+    left: 3%;
+    padding-left: 25px;
+    font-family: 'Architects Daughter', cursive;
+    
+} 
+
+  
+/* }
+.box{
+    position: fixed;
+    left:0%;
+    top:5%;
+    right: 0%;
+    height: 7000px;
+
+}
+.firstbox{
+    background-color:#DB87E0;
+    border:8px solid none;
+    height: 80px;
+    margin-top: -40px;
+    width: 100%;
+    border: 8px solid none;
+
+}
+ul{
+    float: right;
+    margin: 30px 230px;
+}
+ul li{
+    float: left;
+    margin: 0px 30px;
+list-style-type: none;
+
+}
+ul li a{
+    text-decoration: none;
+    color:#fff ;
+
+}
+ul li a:hover{
+    color:#9081C2;
+}
+h2{
+    text-transform: uppercase;
+    color:#4F346B;
+    font-weight: 400;
+    font-size: 25px;
+    left: 3%;
+    padding-left: 25px;
+    
+} 
+ font{
+    color:#fff
+}
+ .symb{
+  position: absolute;
+  left:3%;
+  top:-20px;
+
+
+}  */
